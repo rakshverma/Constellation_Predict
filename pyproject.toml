@@ -1,0 +1,19 @@
+[project]
+name = "constellation-predictor"
+version = "0.1.0"
+description = "AI-powered constellation detection and identification system"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "django>=5.2.3",
+    "ultralytics>=8.3.0",
+    "opencv-python>=4.11.0",
+    "google-generativeai>=0.8.0",
+    "gtts>=2.5.4",
+    "python-dotenv>=1.0.0",
+    "psycopg2-binary>=2.9.0",
+    "dj-database-url>=2.0.0",
+    "gradio-client>=0.10.0",
+    "pillow>=11.0.0",
+    "numpy>=2.0.0",
+]
