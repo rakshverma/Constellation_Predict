@@ -50,9 +50,7 @@ db.sqlite3-journal
 .DS_Store
 
 # YOLO
-runs/
-*.pt
-!best.pt
+
 
 # Whisper models
 *.pth
