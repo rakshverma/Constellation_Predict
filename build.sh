@@ -12,9 +12,8 @@ pip install uv
 # Install system dependencies (for Linux)
 if [ -f /etc/debian_version ]; then
     echo "Detected Debian/Ubuntu system"
-    echo "Note: Run with sudo if needed for system packages"
-    # apt-get update
-    # apt-get install -y python3-pip
+    apt-get update -qq
+    apt-get install -y --no-install-recommends libgl1 libglib2.0-0 2>/dev/null || true
 fi
 
 # Install Python dependencies
